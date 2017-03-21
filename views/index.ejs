@@ -3,14 +3,16 @@
         <title>Scrapper Node JS</title>
     </head>
 
-    <body>
-        <%= text %> images is been captured from "----.com"
-        the json Data is on "file/output.json" file...
-        
-       <% images.forEach(function(image){ %>
+    <body align="center">
+        <div style="margin:auto;">
+            <%= text %> images is been captured from " <%= url %>"<br />
+            the json Data is on "file/output.json" file...
+            
+                <% images.forEach(function(image){ %>
 
-         <img src="<%= image %>" ><br>
+            <img src="<%= image %>" ><br>
 
-        <% })%>
+            <% })%>
+        </div>
     </body>
 </html>

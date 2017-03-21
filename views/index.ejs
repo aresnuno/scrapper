@@ -1,0 +1,16 @@
+<html>
+    <head>
+        <title>Scrapper Node JS</title>
+    </head>
+
+    <body>
+        <%= text %> images is been captured from "----.com"
+        the json Data is on "file/output.json" file...
+        
+       <% images.forEach(function(image){ %>
+
+         <img src="<%= image %>" ><br>
+
+        <% })%>
+    </body>
+</html>

@@ -1,15 +1,25 @@
 # scrapper
 Express & Node.js simple web scrapper
 
+demo : https://sheltered-atoll-70595.herokuapp.com/
+
+
 DEPENDENCIES :
 
 "body-parser": "^1.17.1",
- "cheerio": "latest",
- "ejs": "^2.5.6",
- "express": "latest",
- "request": "latest"
+
+"cheerio": "latest",
+
+"ejs": "^2.5.6",
+
+"express": "latest",
+
+"request": "latest"
+
+
+
     
-How To :
+HOW TO :
   
 -  npm install
 -  npm start
